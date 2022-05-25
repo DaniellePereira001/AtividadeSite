@@ -1,0 +1,161 @@
+header {
+    height: 70px;
+    border: 5px solid black;
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+
+.BoxModel {
+    background-color: red;
+    border: 10px solid black;
+    /* padding: 50px, 20px, 30px, 10px; */
+    margin: 25px, 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.botao1 {
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.botao2 {
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.botao3 {
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.minhaDiv {
+    width: 100%;
+    height: 500px;
+    background-image: url("../imagens/todos.jpeg");
+    background-size: contain;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.conteudo {
+    background-position: center;
+    background-color: black;
+    color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    text-align: center;
+}
+
+.h1 {
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 50px;
+}
+
+.imagemLeia {
+    width: 100%;
+    height: 900px;
+    background-image: url("../imagens/Leia.jpeg");
+    background-repeat: no-repeat;
+}
+
+.imagemRey {
+    width: 100%;
+    height: 700px;
+    background-image: url("../imagens/rey.jpeg");
+    background-repeat: no-repeat;
+}
+
+.imagemHanSolo {
+    width: 100%;
+    height: 700px;
+    background-image: url("../imagens/Han\ Solo.jpeg");
+    background-repeat: no-repeat;
+}
+
+.TodasDiv {
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.Historia {
+    display: inline-block;
+    color: black;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    background-position: left;
+    background-size: auto;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-image: linear-gradient(black, blue);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: antiquewhite;
+    text-decoration: none;
+}
+
+.bnt::after {
+    content: "ST";
+    font-size: 32px;
+    font-weight: bold;
+    transition: margin-top 250ms;
+}
+
+.bnt::after::after {
+    margin-top: 8px;
+}
+
+.nomes {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.critica {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    color: blue;
+    background-position: left;
+}
